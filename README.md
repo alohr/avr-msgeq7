@@ -5,7 +5,7 @@ This is a audio spectrum analyzer based on the msgeq7 using an lm3915 as the dis
 ## Schematic
 
 <p align="center">
-  <img src="images/msgeq7-simple.jpg" alt="schematic"/>
+  <img src="circuit/msgeq7-simple.png" alt="schematic"/>
 </p>
 
 ## Breadboard
