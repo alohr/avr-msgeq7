@@ -67,13 +67,13 @@ struct signal_pins control_pins[] = {
    || defined(__AVR_ATtiny4313__)
 
 struct signal_pins signal_pins[] = {
-    { &DDRB, &PORTB, PB4 }, // band 1
-    { &DDRB, &PORTB, PB3 }, // band 2
-    { &DDRB, &PORTB, PB2 }, // band 3
+    { &DDRD, &PORTD, PD5 }, // band 1
+    { &DDRD, &PORTD, PD6 }, // band 2
+    { &DDRB, &PORTB, PB0 }, // band 3
     { &DDRB, &PORTB, PB1 }, // band 4
-    { &DDRB, &PORTB, PB0 }, // band 5
-    { &DDRD, &PORTD, PD6 }, // band 6
-    { &DDRD, &PORTD, PD5 }, // band 7
+    { &DDRB, &PORTB, PB2 }, // band 5
+    { &DDRB, &PORTB, PB3 }, // band 6
+    { &DDRB, &PORTB, PB4 }, // band 7
 };
 struct signal_pins control_pins[] = {
     { &DDRD, &PORTD, PD3 }, // reset
