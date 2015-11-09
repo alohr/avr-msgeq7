@@ -37,3 +37,9 @@
   <img src="images/step6a.jpg" alt="step6"/>
 </p>
 
+## Step 7 - 10 Segment Bar Graph
+
+<p align="center">
+  <img src="images/step7a.jpg" alt="step7"/>
+</p>
+
