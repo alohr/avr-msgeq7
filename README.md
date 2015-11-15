@@ -21,3 +21,9 @@ Use two msgeq7 and lm3915's to handle the two audio channels independent from ea
 <p align="center">
   <img src="images/stereo-breadboard-medium.jpg" alt="stereo on a breadboard"/>
 </p>
+
+## Sandwiched boards in a "sick of beige" case
+
+<p align="center">
+  <img src="images/finished.jpg" alt="finished"/>
+</p>
