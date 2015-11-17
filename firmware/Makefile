@@ -1,8 +1,13 @@
 DEVICE     = attiny2313
 CLOCK      = 8000000
+
+#DEVICE     = atmega328p
+#CLOCK      = 16000000
+
 PROGRAMMER = -c avrisp2 -P usb
-FUSES      = -U lfuse:w:0xe4:m -U hfuse:w:0xdf:m -U efuse:w:0xff:m
 OBJECTS    = main.o
+
+include fuses.mk
 
 # Tune the lines below only if you know what you are doing:
 AVRDUDE = avrdude $(PROGRAMMER) -p $(DEVICE)
