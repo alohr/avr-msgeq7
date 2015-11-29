@@ -27,7 +27,3 @@ Use two msgeq7 and lm3915's to handle the two audio channels independent from ea
 <p align="center">
   <img src="images/finished.jpg" alt="finished"/>
 </p>
-
-<p align="center">
-  <img src="images/finished.jpg" alt="finished"/>
-</p>
